@@ -1,0 +1,14 @@
+logLevel: info
+source: https://source.nexus.com
+target: https://target.nexus.com
+targetUsernameEnv: NEXUS_USERNAME
+targetPasswordEnv: NEXUS_PASSWORD
+artifacts:
+  - sourceRepository: zensolution
+    targetRepository: zensolution
+    groupId: com.zensolution.foo
+    artifactId: foo
+  - sourceRepository: zensolution
+    targetRepository: zensolution
+    groupId: com.zensolution.bar
+    artifactId: bar
